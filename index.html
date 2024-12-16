@@ -3,13 +3,87 @@
     <head>
         <meta charset="UTF-8" />
         <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-        <link rel="stylesheet" href="/src/style.css">
+        <link rel="stylesheet" href="/src/style.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>GSAP</title>
     </head>
     <body>
         <div id="app">
-            
+            <header class="header">
+                <div class="header-container">
+                    <img
+                        data-speed="0.6"
+                        class="header-hero"
+                        src="hero.png"
+                        alt="Hero"
+                    />
+                    <div class="header-content">
+                        <div data-speed="0.75" class="header-main">
+                            <h1 class="header-title">creative scroll</h1>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <div class="main-container">
+                    <section data-speed="0.9" class="gallery-left">
+                        <img
+                            class="gallery-item"
+                            src="1.jpg"
+                            alt="Image"
+                        />
+                        <img
+                            class="gallery-item"
+                            src="2.jpg"
+                            alt="Image"
+                        />
+                        <div class="text-block gallery-item">
+                            <h2 class="text-block-title">
+                                Creative floating scroll with amazing parallax
+                                effect
+                            </h2>
+                            <p class="text-block-text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor amount
+                                scrolling.
+                            </p>
+                        </div>
+                        <img
+                            class="gallery-item"
+                            src="6.jpg"
+                            alt="Image"
+                        />
+                    </section>
+                    <section data-speed="1.1" class="gallery-right">
+                        <div class="text-block gallery-item">
+                            <h2 class="text-block-title">
+                                Creative floating scroll with amazing parallax
+                                effect
+                            </h2>
+                            <p class="text-block-text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor amount
+                                scrolling.
+                            </p>
+                        </div>
+                        <img
+                            class="gallery-item"
+                            src="4.jpg"
+                            alt="Image"
+                        />
+                        <img
+                            class="gallery-item"
+                            src="5.jpg"
+                            alt="Image"
+                        />
+                        <img
+                            class="gallery-item"
+                            src="3.jpg"
+                            alt="Image"
+                        />
+                    </section>
+                </div>
+            </main>
         </div>
         <script type="module" src="/src/main.js"></script>
     </body>
